@@ -1,0 +1,21 @@
+SOLID design principle
+- single responsibility principle (SRP)
+   + A class should have a single responsibility
+   + cool code return String.join(System.lineSeperator(), entries)
+   + cool code psvm --> public static void main(String[] args)
+
+- open close principle -- example specification pattern
+    + open for extension but close for modification
+    + Interface Specification<T>
+    + List.of does not seem to work in java 8 maybe it works in more recent versions
+
+- Liskov Substitution Principle
+    + should be able to substitute sub class for base class
+
+- Interface Segregation Principle
+    + should not put into the interface more than the client is wanting to implement
+    + YAGNI = you ain't going to need it
+
+- Dependency Inversion Principle
+    + High level module should not depend on low level module both should depend on abstraction
+    + Abstraction should not depend on details but details should depend on abstraction
